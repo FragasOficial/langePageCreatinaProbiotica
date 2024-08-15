@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(8, 8, 8);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.title-header{
+    /* position: absolute;
+    top: 6rem;
+    left: 22%; */
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: yellow;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.configSections{
+    width: 100%;
+}
+
+.renderCard{
+    border: 0.01rem solid white;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.subDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#titleCardVideo{
+    margin: 0 auto;
+    display: flex;
+    max-width: 36%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
