@@ -37,9 +37,16 @@ header{
 
 .renderCard{
     border: 0.01rem solid white;
-    background-color: rgb(83, 83, 83);
+    /* background-color: rgb(83, 83, 83); */
     color: white;
 }
+
+#renderVantagens{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 .subDiv{
     display: flex;
@@ -49,7 +56,22 @@ header{
     align-items: center;
 }
 
-#titleCardVideo{
+.subDivTwo{
+    
+}
+
+#headerVantagens{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vantagens{
+
+}
+
+#titleCard{
+    color: white;
     margin: 0 auto;
     display: flex;
     max-width: 36%;
@@ -59,3 +81,31 @@ header{
     text-transform: uppercase;
 }
 
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+input, select, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
