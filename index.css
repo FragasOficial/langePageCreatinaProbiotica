@@ -1,97 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    
-    margin: 0 auto;
-}
 
-body{
+body {
+    margin: 0 auto;
+    width: 95%;
     background-color: rgb(8, 8, 8);
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-header{
+header {
+    height: 15vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
 }
 
-.title-header{
-    /* position: absolute;
-    top: 6rem;
-    left: 22%; */
+.title-header {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
-    text-align: center;
     color: yellow;
     font-size: 3rem;
     font-weight: bolder;
 }
 
-.configSections{
+.configSections {
     width: 100%;
-}
-
-.renderCard{
-    border: 0.01rem solid white;
-    /* background-color: rgb(83, 83, 83); */
-    color: white;
-}
-
-#renderVantagens{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
 }
 
+#configVantagens {
+    display: flex;
+    flex-direction: column;
+}
 
-.subDiv{
+.renderCard {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    font-size: large;
+    line-height: 1.8rem;
+    color: white;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#renderVantagens {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: large;
+    line-height: 1.8rem;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.subDiv, .subDivTwo {
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
 }
 
-.subDivTwo{
-    
-}
-
-#headerVantagens{
+#headerVantagens {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.vantagens{
+.vantagens {
 
 }
 
-#titleCard{
+#titleCard, #titleCardVideo {
+    padding-bottom: 1.3rem;
     color: white;
     margin: 0 auto;
     display: flex;
-    max-width: 36%;
+    max-width: 58%;
     text-align: center;
+    line-height: 2.3rem;
     font-size: xx-large;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
 .form-container {
+    line-height: normal;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     background: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
 }
-h2 {
+
+.captLeed {
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    color: black;
     margin-bottom: 20px;
 }
+
 input, select, button {
     width: 100%;
     margin-bottom: 10px;
@@ -100,12 +130,157 @@ input, select, button {
     border: 1px solid #ddd;
     box-sizing: border-box;
 }
+
 button {
+    margin-top: 2rem;
+    align-items: center;
     background-color: #28a745;
     color: #fff;
     border: none;
     cursor: pointer;
+    width: 18rem;
+    text-transform: uppercase;
+    font-size: larger;
 }
+
+#bottonForm {
+    margin-top: 0.5rem;
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 30rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 button:hover {
     background-color: #218838;
+}
+
+footer {
+    color: white;
+}
+
+.renderFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height: 8rem;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Smartphones */
+@media (max-width: 600px) {
+
+    body{
+        margin: 0.3rem auto;
+    }
+    .title-header {
+        font-size: 180%;
+    }
+
+    #titleCard, #titleCardVideo {
+        font-size: x-large;
+        line-height: 1.6rem;
+        max-width: 90%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    iframe{
+        max-width: 100%;
+    }
+
+    .renderCard{
+        font-size: 100%;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+
+    button, #bottonForm {
+        width: 100%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    .title-header {
+        font-size: 2.5rem;
+    }
+
+    #titleCard, #titleCardVideo {
+        font-size: x-large;
+        line-height: 2rem;
+        max-width: 80%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    button, #bottonForm {
+        width: 100%;
+    }
+}
+
+/* Desktops */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .title-header {
+        font-size: 2.8rem;
+    }
+
+    #titleCard, #titleCardVideo {
+        font-size: xx-large;
+        line-height: 2.3rem;
+        max-width: 70%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .form-container {
+        padding: 25px;
+    }
+
+    button, #bottonForm {
+        width: 100%;
+    }
+}
+
+/* Large Screens (Smart TVs, Large Desktops) */
+@media (min-width: 1201px) {
+    .title-header {
+        font-size: 3rem;
+    }
+
+    #titleCard, #titleCardVideo {
+        font-size: xx-large;
+        line-height: 2.3rem;
+        max-width: 60%;
+    }
+
+    header {
+        height: 15vw;
+    }
+
+    .form-container {
+        padding: 30px;
+    }
+
+    button, #bottonForm {
+        width: 18rem;
+    }
 }
