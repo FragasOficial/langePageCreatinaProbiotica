@@ -33,22 +33,8 @@ header {
     align-items: center;
 }
 
-#configVantagens {
+.configVantagens {
     display: flex;
-    flex-direction: column;
-}
-
-.renderCard {
-    padding-top: 2rem;
-    padding-bottom: 5rem;
-    font-size: large;
-    line-height: 1.8rem;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #renderVantagens {
@@ -66,14 +52,32 @@ header {
     justify-content: center;
 }
 
+.secondSection{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.renderCard {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    font-size: large;
+    line-height: 1.8rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .subDiv, .subDivTwo {
     padding-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: 0 auto;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #headerVantagens {
