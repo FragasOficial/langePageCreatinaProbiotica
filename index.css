@@ -34,13 +34,29 @@ header {
 }
 
 .configVantagens {
+    /* display: flex; */
+}
+
+.video{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.beneficios{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.numbers{
+    width: 8%;
+    border-radius: 60rem;
 }
 
 #renderVantagens {
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
     font-size: large;
@@ -53,7 +69,8 @@ header {
 }
 
 .secondSection{
-    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 
@@ -71,13 +88,16 @@ header {
 }
 
 .subDiv, .subDivTwo {
-    padding-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* flex-direction: column; */
     margin: 0 auto;
-    /* align-items: center; */
+}
+
+.cardOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #headerVantagens {
@@ -87,6 +107,11 @@ header {
 }
 
 .vantagens {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: justify;
+    /* margin-bottom: 2rem; */
+    width: 45%;
 
 }
 
@@ -101,6 +126,69 @@ header {
     font-size: xx-large;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+
+.depoimentos{
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.cardDepoimento{
+    padding: 0.5rem;
+    border: 0.01rem solid gray;
+    border-radius: 0.3rem;
+    display: flex;
+    margin: 0 auto;
+    width: 30%;
+    gap: 0.6rem;
+}
+
+
+.nameOne{
+    font-size: 1rem;
+    color: yellow;
+}
+
+.depOne{
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.photosClientes{
+    width: 30%;
+    border-radius: 0.2rem;
+}
+
+.importante{
+    margin: 0 auto;
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caracteristic{
+    margin: 0 auto;
+    text-align: justify;
+    justify-content: center;
+    width: 40%;
+}
+
+.titleCaracteristic{
+    color: yellow;
+    text-transform: uppercase;
+}
+
+iframe{
+    margin-bottom: 2rem;
+}
+
+.garanted{
+    border-radius: 360rem;
 }
 
 .form-container {
@@ -136,7 +224,7 @@ input, select, button {
 }
 
 button {
-    margin-top: 2rem;
+    margin-top: 4rem;
     align-items: center;
     background-color: #28a745;
     color: #fff;
