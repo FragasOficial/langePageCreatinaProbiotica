@@ -303,6 +303,25 @@ button {
     flex-direction: column;
 }
 
+.faq{
+    gap: 1.5rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleAsk{
+    color: yellow;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.ask{
+    text-align: justify;
+    width: 45%;
+
+}
+
 button:hover {
     background-color: #218838;
 }
