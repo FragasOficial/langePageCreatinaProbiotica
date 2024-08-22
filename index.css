@@ -10,11 +10,17 @@ body {
 }
 
 header {
-    height: 15vw;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    margin-bottom: 20rem;
+}
+
+#first-button{
+    margin-top: -0.5rem;
 }
 
 .title-header {
@@ -31,6 +37,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#card-importante{
+    display: flex;
+    align-items: first baseline;
 }
 
 .configVantagens {
@@ -111,6 +122,7 @@ header {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .subDiv, .subDivTwo {
@@ -122,6 +134,7 @@ header {
 }
 
 .cardOne{
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,9 +150,7 @@ header {
     justify-content: center;
     margin: 0 auto;
     text-align: justify;
-    /* margin-bottom: 2rem; */
     width: 45%;
-
 }
 
 #titleCard, #titleCardVideo {
@@ -175,7 +186,6 @@ header {
     gap: 0.6rem;
 }
 
-
 .nameOne{
     font-size: 1rem;
     color: yellow;
@@ -200,18 +210,33 @@ header {
 }
 
 .imgCarateristic{
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.imgCreatina{
+    align-items: center;
+    margin-bottom: 2rem;
+    /* width: 28%; */
 }
 
 .caracteristic{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     text-align: justify;
-    /* justify-content: center; */
-    width: 40%;
+    justify-content: center;
+    width: 80%;
 }
 
 .titleCaracteristic{
+    font-weight: bolder;
+    padding-bottom: 1rem;
     color: yellow;
     text-transform: uppercase;
 }
@@ -221,7 +246,9 @@ iframe{
 }
 
 .garanted{
+    width: 20rem;
     border-radius: 360rem;
+    margin-bottom: 4rem;
 }
 
 .garantias{
@@ -303,6 +330,15 @@ button {
     flex-direction: column;
 }
 
+#borderFaq{
+    margin: 0 auto;
+    border: 0.01rem solid white;
+    border-radius: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 80%;
+}
+
 .faq{
     gap: 3rem;
     justify-content:space-around;
@@ -325,8 +361,24 @@ button {
 .ask{
     margin-bottom: 3rem;
     text-align: justify;
-    width: 60%;
+    width: 80%;
 
+}
+
+.box-faq{
+    padding-top: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    margin-bottom: 1rem;
+    align-items: center;
+    width: 10rem;
 }
 
 button:hover {
@@ -353,6 +405,7 @@ footer {
 @media (max-width: 600px) {
 
     body{
+        flex-direction: column;
         margin: 0.3rem auto;
     }
     .title-header {

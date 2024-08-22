@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creatina Probiotica</title>
     <link rel="stylesheet" href="./globalStyles.css">
-
 </head>
-<body>
+<body>     
     <header>
+        <ul class="imgCarateristic">
+            <img src="./img/academiaCasalProbiotica.png" alt="Casal academia" class="imgCreatina">
+            <img src="./img/ademiaMulherProbiotica.png" alt="Mulher sorrindo" class="imgCreatina">
+            <img src="./img/academiaSumo.png" alt="Agachamento" class="imgCreatina">
+        </ul>
         <h1 class="title-header">
             A creatina que dá resultados
         </h1>
@@ -23,13 +27,12 @@
                     title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <button>Comprar agora</button>
+                <button id="first-button">Quero Comprar agora</button>
                 </div>
             </div>
         </section>
         <section class="configVantagens">
             <div id="renderVantagens">
-                
                 <div class="subDiv">
                     <div class="video">
                         <div class="topFive">
@@ -140,18 +143,19 @@
                 <button>Quero esse produto</button>
             </div>
         </section>
-        <!-- <section class="configSections">
+        <section class="configSections" id="card-importante">
             <div class="renderCard">
                 <h1 id="titleCard">Características importantes</h1>
                 <div class="subDivImpportante">
                     <div class="cardImportante">
-                        <div class="videoImportante"><iframe width="560" height="315" 
+                        <div class="videoImportante">
+                             <iframe width="560" height="315" 
                             src="https://www.youtube.com/embed/McXWc4ZUjK0?si=T3xQGT0puNd2MdBm" 
                             title="YouTube video player" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <ul class="importante">
-                            
                             <li class="caracteristic">
                                 <span class="titleCaracteristic">Melhora na Absorção: </span>
                                 A creatina probiótica é formulada para melhorar a absorção do suplemento pelo corpo. A presença de probióticos 
@@ -183,77 +187,59 @@
                                 confortável para quem tem sensibilidade digestiva.
                             </li>
                         </ul>
-                        <ul class="imgCarateristic">
-                            <img src="./img/academiaCasalProbiotica.png" alt="Casal academia" class="imgCreatina">
-                            <img src="./img/ademiaMulherProbiotica.png" alt="Mulher sorrindo" class="imgCreatina">
-                            <img src="./img/academiaSumo.png" alt="Agachamento" class="imgCreatina">
-                        </ul>
-                    
+                        <button>Adquirir este produto</button>
                     </div>
-                    <button>Adquirir este produto</button>
                 </div>
             </div>
-        </section> -->
+        </section>
         <section class="configSections">
             <div class="renderCard">
                 <h1 id="titleCard">Garantia de Qualidade</h1>
                 <img src="./img/garanted.png" alt="Garantido" class="garanted">
                 <div class="subDiv">
                     <div class="rederGarantias">
-                        <!-- <ul class="garantia-img">
-                        <img src="./img/garanted.png" alt="Garantia" class="img-simble">
-                        <li class="garantias">
-                            <span class="subtitleGarantia">Satisfação Garantida:</span>
-                            O vendedor oferece uma garantia de reembolso total se o cliente não estiver satisfeito com 
-                            os resultados após um determinado período de uso.
-                        </li>
-                    </ul> -->
-                    <ul class="garantia-img">
-                        <img src="./img/qualiCert.png" alt="Garantia" class="img-simble">
-                        <li class="garantias">
+                        <ul class="garantia-img">
+                            <img src="./img/qualiCert.png" alt="Garantia" class="img-simble">
+                            <li class="garantias">
+                                <span class="subtitleGarantia">Qualidade Certificada:</span>
+                                A creatina probiótica é fabricada seguindo os mais altos padrões de qualidade, com certificações 
+                                que comprovam a pureza e a eficácia do produto.
+                            </li>
+                        </ul>
+                        <ul class="garantia-img">
+                            <img src="./img/naturalIngred.png" alt="Garantia" class="img-simble">
+                            <li class="garantias">
 
-                        </li>
-                        <li class="garantias">
-                            <span class="subtitleGarantia">Qualidade Certificada:</span>
-                            A creatina probiótica é fabricada seguindo os mais altos padrões de qualidade, com certificações 
-                            que comprovam a pureza e a eficácia do produto.
-                        </li>
-                    </ul>
-                    <ul class="garantia-img">
-                        <img src="./img/naturalIngred.png" alt="Garantia" class="img-simble">
-                        <li class="garantias">
+                            </li>
+                            <li class="garantias">
+                                <span class="subtitleGarantia">Ingredientes Naturais:</span>
+                                O vendedor garante que a creatina probiótica é feita apenas com ingredientes naturais, sem adição 
+                                de substâncias artificiais ou químicas prejudiciais.
+                            </li>
+                        </ul>
+                        <ul class="garantia-img">
+                            <img src="./img/resultVisible.png" alt="Resultados visíveis" class="img-simble">
+                            <li class="garantias">
 
-                        </li>
-                        <li class="garantias">
-                            <span class="subtitleGarantia">Ingredientes Naturais:</span>
-                            O vendedor garante que a creatina probiótica é feita apenas com ingredientes naturais, sem adição 
-                            de substâncias artificiais ou químicas prejudiciais.
-                        </li>
-                    </ul>
-                    <ul class="garantia-img">
-                        <img src="./img/resultVisible.png" alt="Resultados visíveis" class="img-simble">
-                        <li class="garantias">
-
-                        </li>
-                        <li class="garantias">
-                            <span class="subtitleGarantia">Resultados Visíveis:</span>
-                            O vendedor assegura que, com o uso regular do produto, os clientes notarão melhorias significativas 
-                            no desempenho físico e na recuperação muscular dentro de um período específico.
-                        </li>
-                    </ul>
-                    <ul class="garantia-img">
-                        <img src="./img/motoboy.png" alt="Garantia" class="img-simble">
-                        <li class="garantias">
-                            
-                        </li>
-                        <li class="garantias">
-                            <span class="subtitleGarantia">Entrega Rápida e Segura:</span>
-                            Garantia de que o produto será entregue dentro do prazo estipulado, em embalagem segura e discreta, 
-                            com possibilidade de rastreamento.
-                        </li>
-                    </ul>
+                            </li>
+                            <li class="garantias">
+                                <span class="subtitleGarantia">Resultados Visíveis:</span>
+                                O vendedor assegura que, com o uso regular do produto, os clientes notarão melhorias significativas 
+                                no desempenho físico e na recuperação muscular dentro de um período específico.
+                            </li>
+                        </ul>
+                        <ul class="garantia-img">
+                            <img src="./img/motoboy.png" alt="Garantia" class="img-simble">
+                            <li class="garantias">
+                                
+                            </li>
+                            <li class="garantias">
+                                <span class="subtitleGarantia">Entrega Rápida e Segura:</span>
+                                Garantia de que o produto será entregue dentro do prazo estipulado, em embalagem segura e discreta, 
+                                com possibilidade de rastreamento.
+                            </li>
+                        </ul>
                     </div>
-                    
                 </div>
             </div>
         </section>
@@ -273,10 +259,8 @@
             
                         <label for="interesses">Interesses:</label>
                         <select id="interesses" name="interesses">
-                            <option value="produto_a">Produto A</option>
-                            <option value="produto_b">Produto B</option>
-                            <option value="servico_a">Serviço A</option>
-                            <option value="servico_b">Serviço B</option>
+                            <option value="produto_a">Creatina Mix 300 g</option>
+                            <option value="produto_b">Creatina 100 g</option>
                         </select>
             
                         <label for="como_conheceu">Como você conheceu nossa empresa?</label>
@@ -295,97 +279,122 @@
                         <button type="submit" id="bottonForm">Enviar</button>
                     </form>
                 </div>
-                <div class="subDiv"></div>
-                <div class="subDiv"></div>
-                <div class="subDiv"></div>
             </div>
         </section>
-        <section class="configSections">
+        <section class="configSections" id="borderFaq">
             <h1 id="titleCard">Perguntas frequentes</h1>
             <div class="renderCard">
                 <div class="subDiv">
-                    <ul class="faq">
-                        <li ><span class="titleAsk">Como posso rastrear o meu pedido?</span></li>
-                        <li class="ask">
-                            Após a confirmação do pedido, você receberá um e-mail com um código de rastreamento. Basta acessar 
-                            o link fornecido no e-mail e inserir o código para acompanhar a entrega em tempo real.
-                        </li>
-                    </ul>
-                    <ul class=faq>
-                        <li><span class="titleAsk">Qual é a política de devolução?</span></li>
-                        <li class="ask">
-                            Se você não estiver satisfeito com o produto, oferecemos uma política de devolução de 30 dias. 
-                            Você pode solicitar um reembolso completo ou troca, desde que o produto esteja em sua embalagem 
-                            original e sem uso.
-                        </li>
-                    </ul>
-                    <ul class="faq">
+                    <div class="box-faq">
+                        <ul class="faq">
+                            <img src="./img/rastrear-produto.png" alt="Rastrear pedido">
+                            <li ><span class="titleAsk">Como posso rastrear o meu pedido?</span></li>
+                            <li class="ask">
+                                Após a confirmação do pedido, você receberá um e-mail com um código de rastreamento. Basta acessar 
+                                o link fornecido no e-mail e inserir o código para acompanhar a entrega em tempo real.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-faq">
+                        <img src="./img/devolver.png" alt="Devolver produto">
+                        <ul class=faq>
+                            <li><span class="titleAsk">Qual é a política de devolução?</span></li>
+                            <li class="ask">
+                                Se você não estiver satisfeito com o produto, oferecemos uma política de devolução de 30 dias. 
+                                Você pode solicitar um reembolso completo ou troca, desde que o produto esteja em sua embalagem 
+                                original e sem uso.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-faq">
                         <img src="./img/entrega.png" alt="Carro entrega">
-                       <li><span class="titleAsk">Qual é o prazo de entrega?</span></li>
-                        <li class="ask">
-                            O prazo de entrega varia de acordo com a sua localização, mas normalmente os pedidos são 
-                            entregues em 5 a 7 dias úteis. Também oferecemos opções de entrega expressa para quem 
-                            deseja receber o produto mais rapidamente.
-                        </li> 
-                    </ul>
-                    <ul class="faq">
-                       <li><span class="titleAsk">O produto tem garantia?</span></li>
-                        <li class="ask">
-                            Sim, oferecemos uma garantia de satisfação de 100%. Se você não perceber melhorias dentro 
-                            de 30 dias de uso, devolvemos seu dinheiro, sem complicações.
-                        </li> 
-                    </ul>
-                    <ul class="faq">
+                        <ul class="faq">
+                        <li><span class="titleAsk">Qual é o prazo de entrega?</span></li>
+                            <li class="ask">
+                                O prazo de entrega varia de acordo com a sua localização, mas normalmente os pedidos são 
+                                entregues em 5 a 7 dias úteis. Também oferecemos opções de entrega expressa para quem 
+                                deseja receber o produto mais rapidamente.
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="box-faq">
+                        <img src="./img/garantia-do-produto.png" alt="Garantia do produto">
+                        <ul class="faq">
+                        <li><span class="titleAsk">O produto tem garantia?</span></li>
+                            <li class="ask">
+                                Sim, oferecemos uma garantia de satisfação de 100%. Se você não perceber melhorias dentro 
+                                de 30 dias de uso, devolvemos seu dinheiro, sem complicações.
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="box-faq">
                         <img src="./img/suporte.png" alt="Atendente suporte">
-                        <li><span class="titleAsk">Como posso entrar em contato com o suporte ao cliente?</span></li>
-                        <li class="ask">
-                            Você pode entrar em contato com nosso suporte ao cliente através do telefone, e-mail 
-                            ou chat ao vivo disponível em nosso site. Estamos aqui para ajudar durante o horário 
-                            comercial.
-                        </li>
-                    </ul>
-                    <ul class="faq">
-                        <img src="./img/desconto.webp" alt="">
-                        <li><span class="titleAsk"> Existe algum desconto para compras em quantidade?</span></li>
-                        <li class="ask">
-                            Sim, oferecemos descontos progressivos para compras em maior quantidade. Entre em contato 
-                            com nosso atendimento para saber mais sobre as condições e garantir o melhor preço.
-                        </li>
-                    </ul>   
-                    <ul class="faq">
-                        <li><span class="titleAsk">Os ingredientes do produto são seguros?</span></li>
-                        <li class="ask">
-                            Sim, nossa creatina probiótica é formulada com ingredientes de alta qualidade, seguros e
-                             naturais. Todos os ingredientes são testados rigorosamente para garantir a pureza e a 
-                             segurança do produto.
-                        </li>
-                    </ul>
-                    <ul class="faq">
-                        <li><span class="titleAsk">Posso alterar ou cancelar meu pedido após a confirmação?</span></li>
-                        <li class="ask"> 
-                            Sim, você pode alterar ou cancelar seu pedido dentro de 24 horas após a confirmação, 
-                            sem nenhum custo adicional. Basta entrar em contato com nosso suporte para realizar 
-                            a modificação.
-                        </li>
-                    </ul>    
-                    <ul class="faq">
-                        <li><span class="titleAsk">O produto é adequado para todos os tipos de dietas?</span></li>
-                        <li class="ask">
-                            Sim, nossa creatina probiótica é adequada para veganos e vegetarianos, e não contém 
-                            ingredientes de origem animal. Também é livre de glúten e lactose, sendo adequada 
-                            para pessoas com restrições alimentares.
-                        </li>
-                    </ul> 
-                    <ul class="faq">
-                        <li><span class="titleAsk">Vocês oferecem suporte pós-compra?</span></li>
-                        <li class="ask">
-                            Sim, oferecemos suporte pós-compra para todas as suas dúvidas sobre o uso do produto. 
-                            Nosso time de especialistas está disponível para ajudar você a tirar o máximo proveito 
-                            da creatina probiótica.
-                        </li>
-                    </ul>
-                    <button>Comprar agora</button>
+                        <ul class="faq">
+                            <li><span class="titleAsk">Como posso entrar em contato com o suporte ao cliente?</span></li>
+                            <li class="ask">
+                                Você pode entrar em contato com nosso suporte ao cliente através do telefone, e-mail 
+                                ou chat ao vivo disponível em nosso site. Estamos aqui para ajudar durante o horário 
+                                comercial.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-faq">
+                        <img src="./img/desconto.webp" alt="descoonto progressivo">
+                        <ul class="faq">
+                            <li><span class="titleAsk"> Existe algum desconto para compras em quantidade?</span></li>
+                            <li class="ask">
+                                Sim, oferecemos descontos progressivos para compras em maior quantidade. Entre em contato 
+                                com nosso atendimento para saber mais sobre as condições e garantir o melhor preço.
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="box-faq">
+                        <img src="./img/seguro.png" alt="Ingredientes do produto">
+                        <ul class="faq">
+                            <li><span class="titleAsk">Os ingredientes do produto são seguros?</span></li>
+                            <li class="ask">
+                                Sim, nossa creatina probiótica é formulada com ingredientes de alta qualidade, seguros e
+                                naturais. Todos os ingredientes são testados rigorosamente para garantir a pureza e a 
+                                segurança do produto.
+                            </li>
+                        </ul>
+                    </div>  
+                    <div class="box-faq">
+                        <img src="./img/cancelar-alterar.png" alt="Alterar pedido">
+                        <ul class="faq">
+                            <li><span class="titleAsk">Posso alterar ou cancelar meu pedido após a confirmação?</span></li>
+                            <li class="ask"> 
+                                Sim, você pode alterar ou cancelar seu pedido dentro de 24 horas após a confirmação, 
+                                sem nenhum custo adicional. Basta entrar em contato com nosso suporte para realizar 
+                                a modificação.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-faq">
+                        <img src="./img/dieta-adequada.png" alt="Adequado para dieta">
+                        <ul class="faq">
+                            <li><span class="titleAsk">O produto é adequado para todos os tipos de dietas?</span></li>
+                            <li class="ask">
+                                Sim, nossa creatina probiótica é adequada para veganos e vegetarianos, e não contém 
+                                ingredientes de origem animal. Também é livre de glúten e lactose, sendo adequada 
+                                para pessoas com restrições alimentares.
+                            </li>
+                        </ul> 
+                    </div>    
+                    <div class="box-faq">
+                        <img src="./img/suporte-pos-at.png" alt="Suporte pós compra">
+                        <ul class="faq">
+                            <li><span class="titleAsk">Vocês oferecem suporte pós-compra?</span></li>
+                            <li class="ask">
+                                Sim, oferecemos suporte pós-compra para todas as suas dúvidas sobre o uso do produto. 
+                                Nosso time de especialistas está disponível para ajudar você a tirar o máximo proveito 
+                                da creatina probiótica.
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
+                <button>Comprar agora</button>
             </div>
         </section>
         <section class="configSections">
