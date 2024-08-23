@@ -441,7 +441,6 @@ footer {
     }
     
     
-    
     .configSections {
         width: 100%;
         display: flex;
@@ -449,6 +448,12 @@ footer {
         align-items: center;
     }
     
+    .secondSection{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
     #card-importante{
         display: flex;
         align-items: center;
@@ -457,6 +462,14 @@ footer {
         max-width: 100%;
     }
     
+    .vantagens{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        max-width: 100%;
+    }
+
     .configVantagens {
         align-items: center;
         flex-direction: column;
@@ -489,17 +502,6 @@ footer {
         margin-top: 5rem;
     }
     
-    #renderVantagens {
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-    }
-    
-    .secondSection{
-        align-items: center;
-        flex-direction: column;
-    }
-    
     .topFive{
         padding-top: 0.5rem;
         padding-bottom: 1rem;
@@ -521,51 +523,7 @@ footer {
         flex-direction: column;
         max-width: 100%;
     }
-    
-    .cardImportante{
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-    }
-    
-    .subDiv, .subDivTwo {
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-    }
-    
-    .cardOne{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-    }
-    
-    #headerVantagens {
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .vantagens {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-        justify-content: center;
-    }
-    
-    #titleCard, #titleCardVideo {
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-        text-transform: uppercase;
-    }
-    
-    
+
     .depoimentos{
         align-items: center;
         flex-direction: column;
@@ -613,6 +571,49 @@ footer {
         flex-direction: column;
         max-width: 100%;
         border-radius: 0.2rem;
+    }
+    
+    .cardImportante{
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .subDiv, .subDivTwo {
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .cardOne{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    #headerVantagens {
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .vantagens {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+    }
+    
+    #titleCard, #titleCardVideo {
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        text-transform: uppercase;
     }
     
     .importante{
