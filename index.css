@@ -767,26 +767,23 @@ footer {
     }
     
     #borderFaq{
-        align-items: center;
-        flex-direction: column;
-        width: 95%;
-        max-width: 100%;
-        margin: 0 auto;
-        border: 0.01rem solid white;
-        border-radius: 0.5rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
-    
-    .faq{
-        
-        align-items: center;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .faq{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
     }
     
     .titleAsk{
@@ -808,15 +805,15 @@ footer {
         text-align: justify;
     }
     
+
     .box-faq{
+        adisplay: flex;
+        flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
-        align-items: center;
-        margin-bottom: 3rem;
-        display: flex;
-        flex-wrap: wrap;
+        margin: 0 auto;
         justify-content: center;
     }
     
@@ -826,6 +823,18 @@ footer {
         flex-direction: column;
         margin-bottom: 1rem;
         align-items: center;
+    }
+    
+    #imgBox-faq{
+        width: 30%;
+    }
+
+    #imgBox-car{
+        width: 36%;
+    }
+
+    #imgBox-dieta{
+        width: 80%;
     }
     
     button:hover {
