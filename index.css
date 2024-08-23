@@ -110,6 +110,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 100%;
 }
 
 #cardClientes{
@@ -126,6 +128,8 @@ header {
 }
 
 .subDiv, .subDivTwo {
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -221,7 +225,6 @@ header {
 .imgCreatina{
     align-items: center;
     margin-bottom: 2rem;
-    /* width: 28%; */
 }
 
 .caracteristic{
@@ -704,7 +707,7 @@ footer {
     .rederGarantias{
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
         flex-wrap: wrap;
         display: flex;
@@ -714,14 +717,14 @@ footer {
     .form-container {
         align-items: center;
         flex-direction: column;
-        width: 85%;
+        width: 95%;
         max-width: 100%;
     }
     
     .captLeed {
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
         text-align: center;
         font-size: larger;
