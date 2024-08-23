@@ -403,39 +403,466 @@ footer {
 
 /* Smartphones */
 @media (max-width: 600px) {
-
-    body{
-        flex-direction: column;
-        margin: 0.3rem auto;
+    body {
+        margin: 0 auto;
+        width: 95%;
+        background-color: rgb(8, 8, 8);
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
     }
-    .title-header {
-        font-size: 180%;
-    }
-
-    #titleCard, #titleCardVideo {
-        font-size: x-large;
-        line-height: 1.6rem;
-        max-width: 90%;
-    }
-
+    
     header {
-        height: auto;
-    }
-
-    iframe{
-        max-width: 100%;
-    }
-
-    .renderCard{
-        font-size: 100%;
-    }
-
-    .form-container {
-        padding: 15px;
-    }
-
-    button, #bottonForm {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+        margin-bottom: 20rem;
+    }
+    
+    #first-button{
+        margin-top: -0.5rem;
+    }
+    
+    .title-header {
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        color: yellow;
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    
+    .configSections {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #card-importante{
+        display: flex;
+        align-items: center;
+    }
+    
+    .configVantagens {
+        /* display: flex; */
+    }
+    
+    .video{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .imgCreatina{
+        width: 25rem;
+    }
+    
+    .beneficios{
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .numbers{
+        width: 8%;
+        border-radius: 60rem;
+    }
+    
+    #renderVantagens {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        font-size: large;
+        line-height: 1.8rem;
+        color: white;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .secondSection{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    
+    .topFive{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 5rem;
+        flex-direction: column;
+    }
+    
+    .renderCard {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        font-size: large;
+        line-height: 1.8rem;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #cardClientes{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cardImportante{
+        flex-direction: column;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .subDiv, .subDivTwo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .cardOne{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #headerVantagens {
+        flex-direction: column;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .vantagens {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: justify;
+        width: 90%;
+    }
+    
+    #titleCard, #titleCardVideo {
+        text-align: center;
+        padding-bottom: 1.3rem;
+        color: white;
+        margin: 0 auto;
+        display: flex;
+        width: 90%;
+        max-width: 100%;
+        text-align: center;
+        line-height: 2.3rem;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    
+    .depoimentos{
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: justify;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .cardDepoimento{
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem;
+        border: 0.01rem solid gray;
+        border-radius: 0.3rem;
+        display: flex;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+        gap: 0.6rem;
+    }
+    
+    .nameOne{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        font-size: 1rem;
+        color: yellow;
+    }
+    
+    .depOne{
+        align-items: center;
+        flex-direction: column;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    
+    .photosClientes{
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        width: 90%;
+        border-radius: 0.2rem;
+    }
+    
+    .importante{
+        margin: 0 auto;
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .imgCarateristic{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .imgCreatina{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+        /* width: 28%; */
+    }
+    
+    .caracteristic{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: justify;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .titleCaracteristic{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        color: yellow;
+        text-transform: uppercase;
+    }
+    
+    iframe{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .garanted{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        width: 20rem;
+        border-radius: 360rem;
+        margin-bottom: 4rem;
+    }
+    
+    .garantias{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        text-align: justify;
+    }
+    
+    .subtitleGarantia{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        color: yellow;
+    }
+    
+    .garantia-img{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        gap: 1rem;
+        display: flex;
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+    
+    .img-simble{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        width: 10rem;
+    }
+    
+    .rederGarantias{
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .form-container {
+        line-height: normal;
+        margin: 2rem auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .captLeed {
+        text-align: center;
+        font-size: larger;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    input, select, button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    
+    button {
+        margin-top: 4rem;
+        align-items: center;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        width: 18rem;
+        text-transform: uppercase;
+        font-size: larger;
+    }
+    
+    #bottonForm {
+        margin-top: 0.5rem;
+        width: 18rem;
+        padding: 1rem;
+        border-radius: 30rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #borderFaq{
+        margin: 0 auto;
+        border: 0.01rem solid white;
+        border-radius: 0.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        width: 80%;
+    }
+    
+    .faq{
+        gap: 3rem;
+        justify-content:space-around;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .titleAsk{
+        display: flex;
+        margin-bottom: -10rem;
+        justify-content: left;
+        text-align: right;
+        color: yellow;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    .ask{
+        margin-bottom: 3rem;
+        text-align: justify;
+        width: 80%;
+    
+    }
+    
+    .box-faq{
+        padding-top: 0.5rem;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    img{
+        margin-bottom: 1rem;
+        align-items: center;
+        width: 10rem;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    footer {
+        color: white;
+    }
+    
+    .renderFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        height: 8rem;
     }
 }
 
