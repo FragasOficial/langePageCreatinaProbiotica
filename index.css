@@ -797,6 +797,10 @@ footer {
     }
     
     #borderFaq{
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        max-width: 100%;
         margin: 0 auto;
         border: 0.01rem solid white;
         border-radius: 0.5rem;
@@ -815,6 +819,10 @@ footer {
     }
     
     .titleAsk{
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        max-width: 100%;
         display: flex;
         margin-bottom: -10rem;
         justify-content: left;
@@ -825,6 +833,10 @@ footer {
     }
     
     .ask{
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        max-width: 100%;
         margin-bottom: 3rem;
         text-align: justify;
         width: 80%;
@@ -832,9 +844,12 @@ footer {
     }
     
     .box-faq{
-        padding-top: 0.5rem;
         align-items: center;
         flex-direction: column;
+        width: 95%;
+        max-width: 100%;
+        padding-top: 0.5rem;
+        align-items: center;
         margin-bottom: 3rem;
         display: flex;
         flex-wrap: wrap;
@@ -842,6 +857,10 @@ footer {
     }
     
     img{
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        max-width: 100%;
         margin-bottom: 1rem;
         align-items: center;
         width: 10rem;
