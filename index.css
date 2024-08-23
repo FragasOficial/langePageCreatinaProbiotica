@@ -409,22 +409,22 @@ footer {
         width: 95%;
         max-width: 100%;
         justify-content: center;
-        width: 100%;
         margin-bottom: 2rem;
+        margin-top: 1rem;
     }
     
     #first-button{
         align-items: center;
         flex-direction: column;
-        width: 90%;
+        width: 50%;
         max-width: 100%;
-        margin-top: -3rem;
+        margin-top: -2rem;
     }
     
     .title-header {
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 55%;
         max-width: 100%;
     }
     
@@ -460,8 +460,8 @@ footer {
     .imgCreatina{
         align-items: center;
         flex-direction: column;
-        width: 35%;
-        max-width: 100%;
+        /* width: 35%;
+        max-width: 100%; */
     }
     
     .beneficios{
@@ -487,10 +487,10 @@ footer {
     }
     
     .secondSection{
-        align-items: center;
+        /* align-items: center;
         flex-direction: column;
-        width: 95%;
-        max-width: 100%;
+        /* width: 95%;
+        max-width: 100%; */
     }
     
     .topFive{
