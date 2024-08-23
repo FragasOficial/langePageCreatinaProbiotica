@@ -774,8 +774,6 @@ footer {
     }
     
     .faq{
-        /* gap: 3rem;
-        justify-content:space-around; */
         
         align-items: center;
         display: flex;
@@ -787,17 +785,13 @@ footer {
     }
     
     .titleAsk{
+        text-align: center;
         align-items: center;
         flex-direction: column;
         width: 95%;
         max-width: 100%;
         display: flex;
-        margin-bottom: -10rem;
-        justify-content: left;
-        text-align: right;
-        color: yellow;
-        font-weight: bolder;
-        text-transform: uppercase;
+        margin-bottom: -1rem;
     }
     
     .ask{
@@ -807,8 +801,6 @@ footer {
         max-width: 100%;
         margin-bottom: 3rem;
         text-align: justify;
-        width: 80%;
-    
     }
     
     .box-faq{
@@ -816,7 +808,6 @@ footer {
         flex-direction: column;
         width: 95%;
         max-width: 100%;
-        padding-top: 0.5rem;
         align-items: center;
         margin-bottom: 3rem;
         display: flex;
@@ -824,14 +815,12 @@ footer {
         justify-content: center;
     }
     
-    img{
+    .img{
+        width: 50%;
         align-items: center;
         flex-direction: column;
-        width: 95%;
-        max-width: 100%;
         margin-bottom: 1rem;
         align-items: center;
-        width: 10rem;
     }
     
     button:hover {
