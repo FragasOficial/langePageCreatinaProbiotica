@@ -531,46 +531,35 @@ footer {
         text-align: justify;
         display: flex;
         flex-wrap: wrap;
-        gap: 1.5rem;
+        gap: 1rem;
     }
     
     .cardDepoimento{
         align-items: center;
         flex-direction: column;
-        padding: 0.5rem;
-        border: 0.01rem solid gray;
-        border-radius: 0.3rem;
-        display: flex;
-        margin: 0 auto;
         max-width: 100%;
-        width: 90%;
+        width: 95%;
         gap: 0.6rem;
     }
 
     .photosClientes{
-        width: 50%;
+        width: 39%;
     }
     
     .nameOne{
+        text-align: center;
         align-items: center;
         flex-direction: column;
         display: flex;
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: yellow;
+        padding-bottom: 0.5rem;
     }
     
     .depOne{
         align-items: center;
         flex-direction: column;
-        font-size: 1rem;
         line-height: 1.1rem;
-    }
-    
-    .photosClientes{
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
-        border-radius: 0.2rem;
     }
     
     .cardImportante{
@@ -615,8 +604,18 @@ footer {
         max-width: 100%;
         text-transform: uppercase;
     }
-    
+    .videoImportante{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+    }
+
     .importante{
+        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         gap: 0.5rem;
         display: flex;
@@ -626,23 +625,11 @@ footer {
     }
 
     .caracteristic{
+        justify-content:center;
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
-    }
-    
-    .imgCarateristic{
-        align-items: center;
-        flex-direction: column;
-        width: 90%;
-        max-width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
-        margin-top: 1rem;
     }
     
     .imgCreatina{
@@ -654,6 +641,7 @@ footer {
     }
     
     .titleCaracteristic{
+        justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: left;
@@ -665,7 +653,7 @@ footer {
     }
     
     iframe{
-        width: 95%;
+        width: 100%;
         max-width: 100%;
         align-items: center;
         flex-direction: column;
@@ -683,7 +671,7 @@ footer {
         text-align: justify;
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
 
     }
@@ -691,7 +679,7 @@ footer {
     .subtitleGarantia{
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
         color: yellow;
         text-align: center;
@@ -700,7 +688,7 @@ footer {
     .garantia-img{
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
         display: flex;
         margin-top: 2rem;
@@ -726,7 +714,7 @@ footer {
     .form-container {
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 85%;
         max-width: 100%;
     }
     
@@ -742,10 +730,11 @@ footer {
         margin-bottom: 1.25rem;
     }
     
-    input, select, button {
+    label, input, select, button {
+        display: flex;
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
     }
     
