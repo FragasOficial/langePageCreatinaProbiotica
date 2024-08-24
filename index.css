@@ -16,7 +16,6 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-bottom: 20rem;
 }
 
 #first-button{
@@ -461,26 +460,19 @@ footer {
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
     }
     
-    .vantagens{
+    .vantagens, .configVantagens{
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 95%;
-        max-width: 100%;
-    }
-
-    .configVantagens {
-        align-items: center;
-        flex-direction: column;
-        width: 95%;
+        width: 100%;
         max-width: 100%;
     }
     
-    .video{
+    .video, .beneficios{
         align-items: center;
         flex-direction: column;
         max-width: 100%;
@@ -489,12 +481,6 @@ footer {
     .imgCreatina{
         align-items: center;
         flex-direction: column;
-    }
-    
-    .beneficios{
-        align-items: center;
-        flex-direction: column;
-        max-width: 100%;
     }
     
     .numbers{
@@ -568,6 +554,7 @@ footer {
     .cardImportante{
         align-items: center;
         flex-direction: column;
+        width: 100%;
         max-width: 100%;
     }
     
