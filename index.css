@@ -457,6 +457,7 @@ footer {
     
     
     .configSections {
+        margin-bottom: 3rem;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -537,6 +538,7 @@ footer {
     }
     
     .cardDepoimento{
+        border: none;
         align-items: center;
         flex-direction: column;
         max-width: 100%;
@@ -601,19 +603,29 @@ footer {
         justify-content: center;
     }
     
-    #titleCard, #titleCardVideo {
+    #titleCard, .videoImportante {
+        margin-bottom: -4rem;
         align-items: center;
         flex-direction: column;
-        max-width: 100%;
-        text-transform: uppercase;
-    }
-    .videoImportante{
         display: flex;
-        flex-direction: column;
-        align-items: center;
         flex-wrap: wrap;
         width: 100%;
         max-width: 100%;
+        text-transform: uppercase;
+    }
+
+    #titleCardVideo{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        text-transform: uppercase;
+    }
+
+    #firstImg-faq{
+        margin-top: 3rem;
     }
 
     .importante{
@@ -712,6 +724,11 @@ footer {
         flex-wrap: wrap;
         display: flex;
         
+    }
+
+    form{
+        width: 95%;
+        max-width: 100%;
     }
     
     .form-container {
